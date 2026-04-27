@@ -1,3 +1,7 @@
+## Description
+
+This repository accompanies the manuscript _Bayesian Inference of Mixing and Transmission Heterogeneity in Stratified Disease Surveillance Models_. Section 3 of the manuscript details a simulation study whose code is included in the `simulation-study` folder, and Section 4 details a model application whose code is included in the `noro-inference` folder. Code provided for the COVID-19 application described in Section 5 is intentionally left incomplete: in-accordance with our data use agreement, reproduction of these results is not available at this time.
+
 ## Publication
 
 ArXiV: 
