@@ -1,1 +1,5 @@
 .DS_Store
+*.csv
+*.exe
+inf-covid/data/census-api-key.txt
+inf-covid/stan/mi-covid-model
