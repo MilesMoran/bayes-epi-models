@@ -3,3 +3,5 @@
 *.exe
 inf-covid/data/census-api-key.txt
 inf-covid/stan/mi-covid-model
+inf-noro/stan/be-noro-model-reduced
+inf-noro/stan/be-noro-model-full

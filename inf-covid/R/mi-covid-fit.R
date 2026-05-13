@@ -176,7 +176,7 @@ mod <- cmdstan_model("stan/mi-covid-model.stan",
 
 fit <- mod$sample(data = dat,
                   chains = 16,
-                  parallel_chains = 8,
+                  parallel_chains = 16,
                   threads_per_chain = 1,
                   iter_sampling = 2000,
                   iter_warmup = 2000,
@@ -186,7 +186,7 @@ fit <- mod$sample(data = dat,
                   max_treedepth = 12,
                   sig_figs = 9,
                   output_dir = "output",
-                  output_basename = "priors-mi-covid-model",
+                  output_basename = "mi-covid-model",
                   seed=1) 
 
 ################################################################################
