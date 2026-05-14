@@ -72,7 +72,7 @@ plot_incidence <-
                        labels=dimnames(dat$y)$week[seq(1,208,26)]) +
     scale_color_discrete(name="Age Group", labels=strata) + 
     scale_linetype_discrete(name="Age Group", labels=strata) + 
-    labs(title = "Reported Incidence of Norovirus in Berlin, July 2011 to July 2021", 
+    labs(title = "Reported Incidence of Norovirus in Berlin, July 2011 to July 2015", 
          y="", x="ISO Week")
     
 ggsave("plots/plot-incidence-300dpi.png", plot_incidence, 
